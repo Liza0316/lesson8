@@ -1,0 +1,312 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-weight: 500;
+    font-family: Montserrat, sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #252b42;
+}
+
+/* header block */
+.header {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header__wrapper {
+    padding: 26px 40px 28px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header__list {
+    display: flex;
+    flex-direction: row; /* default */
+    justify-content: flex-start; /* default */
+    gap: 94px;
+}
+
+.header__item{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px; 
+    letter-spacing: 0.2px;
+}
+/* end header block */
+
+
+/* hero section */
+.hero {
+    background: url("../assets/img/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: auto;
+}
+
+.wrapper{
+    text-align: center;
+    margin: 0 auto;
+    width: 1440px;
+}
+
+.hero-food-app{
+   color: #f6f6f6;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 36px; 
+   letter-spacing: 0.1px;
+}
+
+.hero-order{
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 80px; 
+    letter-spacing: 0.2px
+}
+
+.hero-downland{
+    color: #f6f6f6;
+    text-align: center;
+    font-size: 24px;
+    line-height: 38px; 
+    letter-spacing: 0.2px;
+    padding-bottom: 48px;
+    margin-bottom: 0;
+}
+
+
+.hero-example{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 34px;
+}
+
+.hero-button{
+color: #fff;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0.1px;
+border-radius: 30px;
+padding: 16px 0;
+min-width: 236px;
+margin-bottom: 145px;
+
+}
+
+.playstore{
+    background-color: #fa4a0c;
+    border: #fa4a0c solid 1px;
+   
+}
+
+.app{
+    background: none;
+    border: #f6f6f6 solid 1px;
+   
+}
+/* end hero section */
+
+
+/* mobile section */
+.mobiles{
+    position: relative;
+    bottom: 282px;
+    /* left: 307px; */
+}
+
+.white-mobile{
+    margin-left: 90px;
+    margin-bottom: 123px;
+}
+
+.red-mobile{
+    position: relative;
+    left: 328px;
+}
+
+hr{
+    width: 884px;
+}
+/* end mobile section */
+
+
+/* step section */
+.steps{
+    width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.steps-app{
+    color: #000;
+    font-family: Poppins;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 36px; 
+    letter-spacing: 0.1px;
+}
+
+figure{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: start;
+}
+
+.steps-figure-food-screen{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: start;
+}
+
+.steps-explore{
+    order: 1;
+}
+
+.steps-img-ord{
+    order: 2;
+}
+
+h3{
+    color: #fa4a0C;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px; 
+    letter-spacing: 0.1px;
+    margin-bottom: 17px;
+}
+
+.steps-pageses{
+    margin-top: 0;
+    max-width: 561px;
+    color:  #252b42;
+font-size: 40px;
+font-weight: 700;
+line-height: 57px; 
+letter-spacing: 0.2px;
+}
+
+.steps-description{
+    max-width: 467px;
+    color:  #737373;
+    font-size: 24px;
+    line-height: 38px; 
+    letter-spacing: 0.2px;
+}
+/* end step section */
+
+
+/* download section */
+.download{
+    background: url(../assets/img/purchases.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: auto;
+}
+
+.download-wrapper{
+    width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.download-app{
+    color: #fff;
+text-align: center;
+font-size: 40px;
+font-weight: 700;
+line-height: 57px;
+letter-spacing: 0.2px;
+margin-top: 145px;
+}
+
+.download-available{
+    color: #fff;
+text-align: center;
+font-size: 24px;
+line-height: 38px;
+letter-spacing: 0.2px;
+}
+
+
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.download-button{
+    color: #fff;
+font-size: 16px;
+font-weight: 700;
+line-height: 28px; 
+letter-spacing: 0.2px;
+border-radius: 10px;
+margin-bottom: 131px;
+cursor: pointer;
+}
+
+.downplay{
+min-width: 142px;
+padding: 18px 0;
+background: #fa4a0c;
+border: #fa4a0C;
+}
+
+.downapp{
+min-width: 171px;
+padding: 16px 0;
+background: none;
+border: #f6f6f6 solid 1px;
+}
+/* end download section */
+
+/* footer */
+.footer{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 115px 53px 115px;
+}
+    
+.footer-social{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.privacy{
+    color:  #5c5c5c;
+font-family: Roboto;
+font-size: 12px;
+font-weight: 700;
+line-height: 18px; 
+letter-spacing: 0.1px;
+}
+/* end footer */
